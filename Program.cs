@@ -90,7 +90,7 @@ namespace SimpleCalculator
 
         public double Subtract(double a, double b)
         {
-            throw new NotImplementedException("Метод Subtract не реализован");
+            return a - b;
         }
 
         public double Multiply(double a, double b)
