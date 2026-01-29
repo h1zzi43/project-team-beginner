@@ -95,7 +95,7 @@ namespace SimpleCalculator
 
         public double Multiply(double a, double b)
         {
-            throw new NotImplementedException("Метод Multiply не реализован");
+            return a * b;
         }
 
         public double Divide(double a, double b)
