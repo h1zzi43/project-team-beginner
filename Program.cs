@@ -85,7 +85,7 @@ namespace SimpleCalculator
         // Методы будут добавляться участниками команды
         public double Add(double a, double b)
         {
-            throw new NotImplementedException("Метод Add не реализован");
+            return a + b;
         }
 
         public double Subtract(double a, double b)
